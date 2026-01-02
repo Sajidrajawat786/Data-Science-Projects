@@ -22,7 +22,19 @@ Hi, I am Sajid Rajawat! Here are my Machine Learning projects using Python.
 * **Techniques:** Data Preprocessing (Converting Text to Numbers), Linear Regression.
 * **Result:** Achieved **R2 Score of 0.65**.
 * **Key Insight:** Discovered that *Bathrooms* and *Air Conditioning* increase the house price more than just Area.
-
+---
+### 4. Mall Customer Segmentation (Clustering) 🛍️
+* **Goal:** Grouped mall customers based on Income and Spending Score to find target audiences.
+* **Techniques:** K-Means Clustering, Elbow Method, Silhouette Score.
+* **Key Insight:** Identified that "Young Customers (25-30)" are the highest spenders, not just the wealthy ones.
+* **File:** [View Project](Project_4_Mall_Customer_Segmentation.ipynb)
+---
+### 5. Handwritten Digit Recognition (Deep Learning - CNN) 🧠
+* **Goal:** Built an AI model to recognize handwritten digits (0-9) from images.
+* **Techniques:** Convolutional Neural Networks (CNN), TensorFlow/Keras, Image Processing (OpenCV).
+* **Performance:** Achieved **99% Accuracy** on MNIST dataset.
+* **Real World Test:** Successfully predicted custom handwritten digits by using dilation (thickening) techniques to match training data.
+* **File:** [View Project](Project_5_Handwritten_Digit_Recognition.ipynb)
 ---
 
 ### Tools Used 🛠️
