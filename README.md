@@ -1,42 +1,47 @@
-# My Data Science Portfolio 🚀
+# My Data Science Portfolio 
 Student at IIT Jodhpur (BS in Data Science & Applications)
 
 Hi, I am Sajid Rajawat! Here are my Machine Learning projects using Python.
 
 ## Projects
 
-### 1. Iris Flower Classification 🌸
+### 1. Iris Flower Classification 
 * **Goal:** To predict the species of a flower (Setosa, Versicolor, Virginica) based on petal and sepal measurements.
 * **Techniques:** Data Visualization (Seaborn Pairplot), K-Nearest Neighbors (KNN).
 * **Result:** Achieved **100% Accuracy** (Score: 1.0).
 * **Key Insight:** Found that *Petal Length* and *Petal Width* are the most important features to identify the flower.
 
-### 2. Titanic Survival Prediction 🚢
+### 2. Titanic Survival Prediction 
 * **Goal:** To predict whether a passenger survived or not based on age, class, and gender.
 * **Techniques:** Data Cleaning, Decision Tree, Random Forest Classifier.
 * **Result:** Achieved **~76% Accuracy**.
 * **Key Insight:** Solved the overfitting problem using Random Forest.
 
-### 3. Housing Price Prediction 🏠
+### 3. Housing Price Prediction 
 * **Goal:** To predict the price of a house based on area and amenities.
 * **Techniques:** Data Preprocessing (Converting Text to Numbers), Linear Regression.
 * **Result:** Achieved **R2 Score of 0.65**.
 * **Key Insight:** Discovered that *Bathrooms* and *Air Conditioning* increase the house price more than just Area.
 ---
-### 4. Mall Customer Segmentation (Clustering) 🛍️
+### 4. Mall Customer Segmentation (Clustering) 
 * **Goal:** Grouped mall customers based on Income and Spending Score to find target audiences.
 * **Techniques:** K-Means Clustering, Elbow Method, Silhouette Score.
 * **Key Insight:** Identified that "Young Customers (25-30)" are the highest spenders, not just the wealthy ones.
 * **File:** [View Project](Project_4_Mall_Customer_Segmentation.ipynb)
 ---
-### 5. Handwritten Digit Recognition (Deep Learning - CNN) 🧠
+### 5. Handwritten Digit Recognition (Deep Learning - CNN) 
 * **Goal:** Built an AI model to recognize handwritten digits (0-9) from images.
 * **Techniques:** Convolutional Neural Networks (CNN), TensorFlow/Keras, Image Processing (OpenCV).
 * **Performance:** Achieved **99% Accuracy** on MNIST dataset.
 * **Real World Test:** Successfully predicted custom handwritten digits by using dilation (thickening) techniques to match training data.
 * **File:** [View Project](Project_5_Handwritten_Digit_Recognition.ipynb)
 ---
-
+### 6. Spam SMS Detector (NLP) 
+* **Goal:** To classify SMS messages as "Spam" or "Ham" (Legitimate) to filter out junk.
+* **Techniques:** Natural Language Processing (NLP), CountVectorizer (Bag of Words), Naive Bayes Classifier.
+* **Performance:** Achieved **99.19% Accuracy**.
+* **Key Insight:** The model successfully filters out scams containing words like "Free", "Win", "Urgent" while preserving legitimate messages.
+* **File:** [View Project](Project_6_Spam_Detector_NLP.ipynb)
 ### Tools Used 🛠️
 * **Languages:** Python
 * **Libraries:** Pandas, NumPy, Scikit-Learn, Seaborn, Matplotlib
