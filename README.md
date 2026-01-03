@@ -42,6 +42,12 @@ Hi, I am Sajid Rajawat! Here are my Machine Learning projects using Python.
 * **Performance:** Achieved **99.19% Accuracy**.
 * **Key Insight:** The model successfully filters out scams containing words like "Free", "Win", "Urgent" while preserving legitimate messages.
 * **File:** [View Project](Project_6_Spam_Detector_NLP.ipynb)
+---
+### 7. Zomato Restaurant Data Analysis (EDA) 🍽️
+* **Goal:** To analyze restaurant data to understand customer preferences, voting trends, and rating distributions.
+* **Techniques:** Exploratory Data Analysis (EDA), Data Cleaning (Pandas), Data Visualization (Seaborn/Matplotlib).
+* **Key Insight:** Visualized the relationship between **Restaurant Types** and **Votes**, identifying which dining categories receive the highest customer engagement.
+* **File:** [View Project](zomato_project.ipynb)
 ### Tools Used 🛠️
 * **Languages:** Python
 * **Libraries:** Pandas, NumPy, Scikit-Learn, Seaborn, Matplotlib
