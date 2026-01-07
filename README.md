@@ -48,7 +48,18 @@ Hi, I am Sajid Rajawat! Here are my Machine Learning projects using Python.
 * **Techniques:** Exploratory Data Analysis (EDA), Data Cleaning (Pandas), Data Visualization (Seaborn/Matplotlib).
 * **Key Insight:** Visualized the relationship between **Restaurant Types** and **Votes**, identifying which dining categories receive the highest customer engagement.
 * **File:** [View Project](zomato_project.ipynb)
+* 🛒 Zepto Product Data Analysis (SQL)
+* **Goal:** To clean, transform, and analyze Zepto's product dataset to uncover business insights regarding inventory health, pricing strategies, and revenue potential.
+* **Techniques:** Data Cleaning (NULL handling), Data Transformation (Currency conversion), Categorical Aggregation, Conditional Logic (CASE statements), and Multi-level Sorting.
+* **Data Cleaning:** Identified and removed invalid records with zero MRP and handled missing values in critical columns like weight and quantity.
+* **Data Transformation:** Standardized financial metrics by converting pricing data from paise to rupees for accurate reporting.
+* **Inventory Management:** Segmented products into 'Low', 'Medium', and 'Bulk' categories based on weight to optimize logistics and stock tracking.
+* **Revenue Estimation:** Calculated the total estimated revenue per category by analyzing the relationship between discounted selling price and available quantity.
+* **Stock Gap Analysis:** Isolated high-value items (MRP > 300) that are currently out of stock to identify potential sales loss.
+* **Unit Economics:** Derived the 'Price per Gram' for products over 100g to identify the best value-for-money options for customers.
+* **Key Insight:** Discovered the top 10 best-value products based on discount percentages and identified which categories offer the highest average discounts.
+* **File:** [View Project]( zepto-data-analysis-sql.sql)
 ### Tools Used 🛠️
 * **Languages:** Python
 * **Libraries:** Pandas, NumPy, Scikit-Learn, Seaborn, Matplotlib
-* **Platform:** Google Colab
+* **Platform:** Google Colab,sql,postgresql
